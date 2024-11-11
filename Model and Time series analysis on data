@@ -1,0 +1,27 @@
+Model
+Performance Metrics
+
+Key performance metrics will indicate how well the AI model is working in modules such as Mathematics, Writing, Pronunciation, and Listening. Such metrics will involve:
+ Accuracy: In math problems, writing exercises, etc., the model will keep count of how often the child has given the correct answer. For pronunciation this system would be able to check the accuracy through the speech analysis mechanism to see if the child says the words with appropriate pronunciation.
+Precision and Recall: Seldom within the writing and listening modules, these metrics will identify how effective the model is in identifying and evaluating grammar, sentence structure, and comprehension.
+F1 Score: This is a combination-the harmonic mean-of precision and recall. It would give an idea of the relative efficiency of the child during a performance, in the situation where, for instance, the child responds partially to questions involving problem-solving or listening comprehension.
+Response Time: Time taken to finish the tasks is also tracked so that the child is neither overwhelmed by difficult tasks nor rushes through easy ones to allow for adjustment of difficulty level on the fly.
+User Feedback
+Qualitative data: The system will on its own get the feedback from the interaction patterns of the child, such as which tasks he/she is most troubled with or trying to avoid. The system will pop up messages to analyze the effectiveness of the model when it detects the child has scored below a certain threshold continuously-say, less than 7/10 for three consecutive sessions-with a view to modifying the learning path.
+Quantitative Data: Completion rate, number of attempts, and improvement over time on each module will give the overall picture of how accurately the model is helping the child advance in its progress.
+Adaptive Feedback Loop
+The performance data include feedback and behavioral data to continuously upgrade the approach taken by the AI model. Specifically, if a child shows constant weakness during certain topics or tasks, the system corrects this by offering him/her more appropriate exercises. It creates an adaptive loop so that the whole learning experience maintains accuracy and personalization.
+6.1 Time Series Analysis on Data
+It will be very critical in assessing the model's long-run effectiveness: ensuring that the child is on the right path in his or her learning journey. Time series analysis can be applied by observing how an approach works as follows:
+Tracking Learning Progress Over Time
+Learning Curves: Successive learning sessions of the child will be tracked through time-series data. The system will, for example, build up on how fast a child is improving their mathematics scores or masters pronunciation exercises over days, weeks, or months. These learning curves will indicate whether over time the model is effectively helping the child.
+Progression Analysis: The system will track exercises a child has already done and their difficulty over time. Whenever it constantly increases the competence of the child in specific domains-like being able to give more correct answers to increasingly difficult math problems-it will be recorded as time series and analyzed for the effectiveness of increasing the difficulty level of the tasks.
+ Trend Analysis
+The system could detect, by analyzing the time series data, the long-run performance trend for the child; for example, a child who tends to continually improve his performance in math but should continuously perform poor in writing or listening might make the model adapt to focus on the most specific weaker areas.
+It can also track the patterns of the child's interaction with the content, such as the frequency of breaks or revisions needed on wrong answers, which will help adjust the pace and difficulty based on behavioral trends over time.
+Real-time Feedback and Adjustment
+Time series data will assist with real-time decision making. For example, if the system recognizes that a child is stuck on a particular problem-if, for example, he or she is scoring poorly for a week in the same task-it automatically adjusts the difficulty or increases more basic practice.
+Trends can be viewed in real time, with immediate suggestions for improvement or places at which the child should return to, hence ensuring that, in the system, progress is always constant.
+Sample/Description of Time Series Analysis
+Sample Data: For example, the system could log the score of a child in the Maths module over days, say Day 1 – 60%, Day 2 – 65%, Day 3 – 75%, and so on. Such a time series will be plotted to verify whether the model is adaptively changing the level of difficulty and if the child is constantly improving.
+Trend Description: In the case that the math scores increase, but over some period of time, it would mean that the model is effective. If the scores have levelled off or are failing, then this becomes an investigation trigger down into if the adjustment in difficulty for the model is occurring too abruptly, or more foundational support is needed.

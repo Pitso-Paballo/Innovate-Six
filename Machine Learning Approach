@@ -1,0 +1,16 @@
+Machine Learning Approach:
+
+Personalized Learning Path
+
+It automatically accommodates the learning curve of each child. Due to the Reinforcement Learning model, it learns whether a child succeeds or fails in certain tasks. If a child does well in any particular subject, say Math or Writing, then the system will up the difficulty scale by offering harder problems. And if a child is doing poorly, it gives them easier exercises to build confidence. The SL approach using our labelled datasets ensures that each task-whether it be maths problems or a writing exercise-sets appropriate difficulties.
+Algorithm Integration
+
+•	•The classification algorithms, such as Decision Trees and Random Forest algorithm, are utilized to gauge the child's mastery of a particular subject and hence adapt the difficulty in activities.
+•	•In pronunciation and writing exercises, NLP algorithms support the creation of new exercises, grammar checking, and pronunciation assessment to provide more detailed feedback to the child.
+•	•The Collaborative Filtering model would observe the trends and successes across users and recommend new Challenges based on the progress that other, similar learners have made so that the child is always working in the most relevant tasks.
+Dynamic and Relevant Learning
+
+The k-means clustering algorithm groups children by their learning preferences or strong points, allowing the system to recommend exercises which best fit their learning style. Forecasting future progress of the child is provided by models of gradient boosting that change the rhythm and difficulty level of the tasks not to make the child frustrated or bored.
+Data-Driven Improvements
+
+We used available datasets, such as the "operation_MATHS" dataset, in developing a recommendation system for personalized learning. By analyzing past performances, patterns and the areas in which improvements are wanted can be detected. For instance, if a child persists with subtraction problems, the system of recommendation will introduce more practice problems to the child in order to handle the problems with ease. Thanks to unsupervised learning techniques, the system continuously improves itself through real-time feedback to fine-tune it from the interactions made by the child.
